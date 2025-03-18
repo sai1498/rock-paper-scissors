@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url('/images/baground\ 1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #fafbdc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.3s;
+}
+p {
+    color: #0a0a0a;
+    font-family: cursive;
+    font-size: 2rem;
+ font-weight: bolder;
+ margin-left: 5rem;
+ 
+}
+
+.options {
+    margin-top: 2rem;
+    gap: 5rem;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: none;
+    color: #e6dcdc;
+    cursor: pointer;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    gap: 5rem;
+}
+
+.message-container {
+    margin-top: 5rem;
+}
+
+#message {
+    font-size: 2rem;
+    color: #131212;
+background: radial-gradient(circle, rgba(221,154,234,1) 38%, rgba(125,219,237,1) 63%);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+}
+#message:hover {
+    background: radial-gradient(circle, rgba(125,219,237,1) 38%, rgba(221,154,234,1) 63%);
+    cursor: pointer;
+    
+}
